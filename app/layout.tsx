@@ -7,8 +7,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adrian's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  title: "Demo portfolio",
+  description: "Demo portfolio realizado con NextJS, Tailwind CSS, y Aceternity UI para Framer Motion",
 };
 
 export default function RootLayout({
