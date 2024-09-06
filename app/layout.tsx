@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Demo portfolio",
-  description: "Demo portfolio realizado con NextJS, Tailwind CSS, y Aceternity UI para Framer Motion",
+  description:
+    "Demo portfolio realizado con NextJS, Tailwind CSS, y Aceternity UI para Framer Motion",
 };
 
 export default function RootLayout({
@@ -18,9 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
+      {/* <head>
         <link rel="icon" href="/jsm-logo.png" sizes="any" />
-      </head>
+      </head> */}
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
